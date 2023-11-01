@@ -518,13 +518,7 @@ section {
 
 /* Contact CSS */
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: auto;
-    padding-bottom: 6rem;
+.contact {    
     min-height: auto;
     padding-bottom: 7rem;
     background: var(--second-bg-color);
