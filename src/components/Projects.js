@@ -9,18 +9,19 @@ function Projects() {
 
     function loopCards(card, index) {
         return (
-            <Col>
-            <Card key = {index}>
-                <Card.Img variant="top" src={card.image}/>
+            <Col key = {index}>
+            <Card >
+                
                 <Card.Body>
+                <Card.Img variant="top img-fluid" src={card.image}/>
                     <Card.Title>{card.title}
                     </Card.Title>
                     <Card.Text>
                         {card.text}
                     </Card.Text>
-                    <div className="btn-box">
+                    <div className="btn-box-projects">
                             <a href= {card.gitHub} style= {{textDecoration: "none"}}> 
-                            <button className="btn"><FaGithub/></button>
+                                <button className="btn-projects"><FaGithub/></button>
                             </a>
                             </div>
                 </Card.Body>
@@ -30,11 +31,11 @@ function Projects() {
     };
 
     return (
-        <section className="education" id="project">
+        <section className="projects" id="project">
             <h2 className="heading">Coding
                 <span>Projects</span>
             </h2>
-            <Row xs={1} md={4} className="g-4">
+            <Row xs={1} md={2} lg={4} className="project-content g-3">
                 {cards.map(loopCards)}
             </Row>
         </section>
