@@ -32,8 +32,7 @@ function Projects() {
 
     return (
         <section className="projects" id="project">
-            <h2 className="heading">Coding
-                <span>Projects</span>
+            <h2 className="heading">Coding <span>Projects</span>
             </h2>
             <Row xs={1} md={2} lg={4} className="project-content g-3">
                 {cards.map(loopCards)}
