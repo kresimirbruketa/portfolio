@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.6504a484.js",
+    "main.js": "/portfolio/static/js/main.26b3ce22.js",
     "static/media/001.jpg": "/portfolio/static/media/001.ceeb4b3f6d9fbad9df65.jpg",
     "static/media/ToursList.JPG": "/portfolio/static/media/ToursList.ffe401b80384f87fda7e.JPG",
     "static/media/BirthdayList.JPG": "/portfolio/static/media/BirthdayList.fa37d5221a803763caad.JPG",
     "static/media/Revievs.JPG": "/portfolio/static/media/Revievs.6588194cb8376f0923af.JPG",
     "static/media/noteApp.png": "/portfolio/static/media/noteApp.13e00d1c62ab44b9dbe4.png",
     "index.html": "/portfolio/index.html",
-    "main.6504a484.js.map": "/portfolio/static/js/main.6504a484.js.map"
+    "main.26b3ce22.js.map": "/portfolio/static/js/main.26b3ce22.js.map"
   },
   "entrypoints": [
-    "static/js/main.6504a484.js"
+    "static/js/main.26b3ce22.js"
   ]
 }
